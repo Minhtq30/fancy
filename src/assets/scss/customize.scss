@@ -1,0 +1,92 @@
+.ant-calendar-picker {
+  &--rounded {
+    .ant-input {
+      border-radius: 5px;
+    }
+  }
+  .ant-input {
+    padding-right: 22px;
+  }
+}
+.ant-table,
+.ant-input,
+.ant-select,
+.ant-btn {
+  font-size: 1rem !important;
+}
+.ant-space-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ant-spin-dot-item {
+  background-color: var(--primaryColor) !important;
+}
+.ant-spin-text {
+  color: var(--primaryColor);
+}
+.ant-popover-inner-content {
+  padding: unset !important;
+}
+
+// Select box global
+.g-select-error {
+  .ant-select-selector {
+    background-color: #ffebee !important;
+  }
+}
+
+.ant-checkbox-wrapper {
+  color: #000 !important;
+}
+.ant-radio-wrapper {
+  color: #000 !important;
+}
+
+.ant-table-body {
+  color: #000;
+  overflow-x: auto !important;
+}
+
+// Input hover
+
+.ant-input-affix-wrapper:hover {
+  border-color: #4db180 !important;
+  box-shadow: unset !important;
+}
+
+.ant-input-affix-wrapper-focused {
+  border-color: #4db180 !important;
+  box-shadow: unset !important;
+}
+
+.ant-select-focused:not(.ant-select-disabled).ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+  box-shadow: unset !important;
+  border-color: #4db180 !important;
+}
+.ant-table-thead > tr > th {
+  color: #000;
+}
+.ant-table-thead > tr > th {
+  color: #000;
+}
+
+.ant-checkbox-checked::after {
+  content: unset !important;
+}
+
+.ant-table-tbody {
+  tr:hover {
+    td {
+      background-color: #fff !important;
+    }
+  }
+}
+// TODO NamVH: Bỏ tạm do bị ảnh hướng đến toàn bộ dự án. cần custom dưới 1 class riêng.
+//.ant-tooltip-inner{
+//  background-color: #C4C4C4 !important;
+//  color: #000 !important;
+//}
+.ant-tooltip{
+  max-width: 320px !important;
+}

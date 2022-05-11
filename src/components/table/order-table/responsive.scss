@@ -1,0 +1,89 @@
+.order-table-wrapper {
+  .pagination-wrapper {
+    padding: 0 0.5rem;
+    .text-lg {
+      display: none;
+    }
+    .text-sm {
+      display: inline-block;
+    }
+    .description-limit {
+      display: none !important;
+    }
+    .page-limit {
+      margin-right: 0.5rem;
+    }
+    .text-print-order, .text-export-order, .text-send-request {
+      display: none !important;
+    }
+    .btn-prev-page,
+    .btn-next-page {
+      padding: 0 4px;
+    }
+    .actions-wrapper {
+      button {
+        padding: 0 4px;
+        width: 110px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+    @media only screen and (min-width: 1440px) {
+      .text-lg {
+        display: inline-block;
+      }
+      .text-sm {
+        display: none;
+      }
+    }
+    @media only screen and (min-width: 1600px) {
+      .text-print-order, .text-export-order, .text-send-request {
+        display: inline-block !important;
+        margin-left: 5px;
+      }
+      .actions-wrapper {
+        button {
+          width: unset;
+          min-width: 130px;
+          padding: 0 15px;
+        }
+      }
+    }
+    @media only screen and (min-width: 1920px) {
+      .description-limit {
+        display: inline-block !important;
+      }
+    }
+  }
+}
+
+.order-table-wrapper {
+  .ant-timeline-item-content,
+  .g-checkbox,
+  .g-button {
+    font-size: 12px !important;
+  }
+  .g-button {
+    padding: 0 0.5rem;
+  }
+  @media only screen and (min-width: 1200px) {
+    .ant-timeline-item-content,
+    .g-checkbox,
+    .g-button {
+      font-size: 14px !important;
+    }
+  }
+  @media only screen and (min-width: 1600px) {
+    .ant-timeline-item-content,
+    .g-checkbox,
+    .g-button {
+      font-size: 1rem !important;
+    }
+    .g-button {
+      padding: 0 1rem !important;
+    }
+  }
+  @media only screen and (min-width: 1920px) {
+  }
+}
